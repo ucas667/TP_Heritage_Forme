@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TP_Heritage_Forme/TP_Heritage_Forme.vcxproj" Id="d441ce72-7005-440d-8d55-56adcf839f18" />
+</Solution>
