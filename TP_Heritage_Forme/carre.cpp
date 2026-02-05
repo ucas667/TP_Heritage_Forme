@@ -20,20 +20,22 @@ CCarre::~CCarre(){
 }
 
 
-CCarre::CCarre(int _cote) : CCRectangle("Carre", cote, cote) {
+CCarre::CCarre(int _cote) : CRectangle("Carre", cote, cote) {
 
 }
 
 
 void CCarre::afficher(){
-	Cforme::afficher();
-	count << "Côté : " << cote << endl;
+	CForme::afficher();
+	cout << "Côté : " << cote << endl;
 }
 
 double CCarre::surface(){
 
 	return 0;
 }
+
+
 
 
 

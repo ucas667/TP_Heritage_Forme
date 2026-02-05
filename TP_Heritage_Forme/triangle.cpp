@@ -28,7 +28,7 @@ CTriangle::CTriangle(string nom, int _hauteur, int _base) : CForme(nom) {
 
 
 void CTriangle::afficher(){
-	Cforme::afficher();
+	CForme::afficher();
 	cout << "Hauteur : " << hauteur << endl;
 	cout << "Base : " << base << endl;
 }
@@ -38,5 +38,7 @@ double CTriangle::surface(){
 
 	return (base * hauteur) / 2.0;
 }
+
+
 
 

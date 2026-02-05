@@ -35,9 +35,11 @@ void CForme::afficher(){
 }
 
 
-CForme::surface(){
+double CForme::surface(){
 
 	return 0;
 }
+
+
 
 

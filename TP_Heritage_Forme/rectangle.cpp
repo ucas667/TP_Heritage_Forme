@@ -34,8 +34,8 @@ CRectangle::~CRectangle(){
  * affiche le nom, la longueur, la largeur et la surface du rectangle
  */
 void CRectangle::afficher(){
-	Cforme::afficher();
-	cout << "Longueur : " << longeur << endl;
+	CForme::afficher();
+	cout << "Longueur : " << longueur << endl;
 	cout << "Largeur : " << largeur << endl;
 }
 
@@ -46,7 +46,9 @@ void CRectangle::afficher(){
  */
 double CRectangle::surface(){
 
-	return largeur * longeur;
+	return largeur * longueur;
 }
+
+
 
 

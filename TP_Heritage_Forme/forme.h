@@ -20,7 +20,7 @@ public:
 
 	CForme(string _nom);
 	void afficher();
-	surface();
+	double surface();
 
 private:
 	/**
@@ -30,5 +30,7 @@ private:
 
 };
 #endif // !defined(EA_C6A867D6_1E90_4f6f_9136_67255E5B0D6C__INCLUDED_)
+
+
 
 

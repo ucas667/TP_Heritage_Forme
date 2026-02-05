@@ -23,7 +23,7 @@ COctogoneRegulier::~COctogoneRegulier(){
  * Affiche le nom de la forme
  */
 void COctogoneRegulier::afficher(){
-	Cforme::afficher();
+	CForme::afficher();
 	cout << "Côté : " << cote << endl;
 }
 
@@ -31,7 +31,7 @@ void COctogoneRegulier::afficher(){
 /**
  * constructeur qui initialise le nom de la forme
  */
-COctogoneRegulier::COctogoneRegulier(string _nom, int _cote) : CForme(nom) {
+COctogoneRegulier::COctogoneRegulier(string _nom, int _cote) : CForme(_nom) {
 	this->cote = _cote;
 }
 
@@ -39,6 +39,8 @@ double COctogoneRegulier::surface(){
 
 	return 2* (1 + sqrt(2)) * cote * cote;
 }
+
+
 
 
 

@@ -20,23 +20,23 @@ void partie1() {
     COctogoneRegulier octogone("Mon Octogone", 3);
 
     
-    rect.afficher();
-    cout << "Surface calculee : " << rect.surface() << endl << endl;
+    rectangle.afficher();
+    cout << "Surface calculee : " << rectangle.surface() << endl << endl;
 
     
-    tri.afficher();
-    cout << "Surface calculee : " << tri.surface() << endl << endl;
+    triangle.afficher();
+    cout << "Surface calculee : " << triangle.surface() << endl << endl;
 
   
-    carr.afficher();
-    cout << "Surface calculee : " << carr.surface() << endl << endl;
+    carre.afficher();
+    cout << "Surface calculee : " << carre.surface() << endl << endl;
 
     
-    octo.afficher();
-    cout << "Surface calculee : " << octo.surface() << endl << endl;
+    octogone.afficher();
+    cout << "Surface calculee : " << octogone.surface() << endl << endl;
 }
 // fonctions de test à coder
-void partie2() {
+void partie2(){}
 /// etc...
 
 int main()
@@ -47,6 +47,8 @@ int main()
 
 	return 0;
 }
+
+
 
 
 

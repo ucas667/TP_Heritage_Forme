@@ -1,3 +1,4 @@
+
 ///////////////////////////////////////////////////////////
 //  triangle.h
 //  Implementation of the Class CTriangle
@@ -27,6 +28,8 @@ private:
 
 };
 #endif // !defined(EA_27FAED55_15DC_44a5_A411_D9FB4F259080__INCLUDED_)
+
+
 
 
 
