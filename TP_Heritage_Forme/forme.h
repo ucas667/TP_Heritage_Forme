@@ -19,8 +19,8 @@ public:
 	~CForme();
 
 	CForme(string _nom);
-	void afficher();
-	double surface();
+	virtual void afficher();
+	virtual double surface();
 
 private:
 	/**
