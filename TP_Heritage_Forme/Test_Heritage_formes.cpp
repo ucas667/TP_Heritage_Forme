@@ -6,7 +6,7 @@
 #include "triangle.h"
 #include "carre.h"
 #include "octogoneRegulier.h"
-
+#include "CCercle.h"
 using namespace std;
 
 
@@ -51,14 +51,15 @@ void partie2() {
 void partie5() {
     cout << "\n--- PARTIE 5 ---" << endl;
 
-    CForme* tableau[4];
+    CForme* tableau[5];
 
     tableau[0] = new CRectangle("Rectangle Polymorphisme", 10, 5);
     tableau[1] = new CCarre(5);
     tableau[2] = new CTriangle("Triangle Polymorphisme", 6, 4);
     tableau[3] = new COctogoneRegulier("Octogone Polymorphisme", 3);
+    tableau[4] = new CCercle("Cercle Polymorphisme", 5.0); 
 
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 5; i++) {
        
         tableau[i]->afficher();
 

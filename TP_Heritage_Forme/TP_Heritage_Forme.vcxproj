@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="carre.cpp" />
+    <ClCompile Include="CCercle.cpp" />
     <ClCompile Include="forme.cpp" />
     <ClCompile Include="OctogoneRegulier.cpp" />
     <ClCompile Include="rectangle.cpp" />
@@ -28,6 +29,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="carre.h" />
+    <ClInclude Include="CCercle.h" />
     <ClInclude Include="forme.h" />
     <ClInclude Include="OctogoneRegulier.h" />
     <ClInclude Include="rectangle.h" />
