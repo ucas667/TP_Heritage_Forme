@@ -24,7 +24,7 @@ COctogoneRegulier::~COctogoneRegulier(){
  */
 void COctogoneRegulier::afficher(){
 	CForme::afficher();
-	cout << "Côté : " << cote << endl;
+	cout << "Cote : " << cote << endl;
 }
 
 

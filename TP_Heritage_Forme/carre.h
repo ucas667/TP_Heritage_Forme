@@ -19,7 +19,7 @@ public:
 
 	CCarre(int _cote);
 	void afficher();
-	double surface();
+	//double surface();
 
 private:
 	int cote;

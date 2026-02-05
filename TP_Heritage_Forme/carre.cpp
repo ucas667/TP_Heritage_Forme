@@ -30,10 +30,10 @@ void CCarre::afficher(){
 	cout << "Cote : " << cote << endl;
 }
 
-double CCarre::surface(){
+//double CCarre::surface(){
 
-	return cote * cote;
-}
+	//return cote * cote;
+//}
 
 
 
