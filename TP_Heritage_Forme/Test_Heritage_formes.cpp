@@ -36,7 +36,18 @@ void partie1() {
     cout << "Surface calculee : " << octogone.surface() << endl << endl;
 }
 // fonctions de test à coder
-void partie2(){}
+void partie2() {
+    cout << "\n--- PARTIE 2 ---" << endl;
+
+    CForme* ptr;
+
+    ptr = new CRectangle("Rectangle Dynamique", 10, 5);
+
+    ptr->afficher();
+    cout << "Surface via pointeur : " << ptr->surface() << endl;
+
+    delete ptr;
+}
 /// etc...
 
 int main()
@@ -44,7 +55,7 @@ int main()
     std::cout << "Test des classes formes\n";
 
 	partie1();
-
+    partie2();
 	return 0;
 }
 
