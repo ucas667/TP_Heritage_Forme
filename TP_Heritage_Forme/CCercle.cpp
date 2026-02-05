@@ -14,3 +14,5 @@ void CCercle::afficher() {
 double CCercle::surface() {
     return 3.14 * rayon * rayon;
 }
+
+
